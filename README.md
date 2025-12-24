@@ -1,4 +1,4 @@
-# 💫 👋 Hi, I’m Deep Patel
+# 💫 Hi, I’m Deep Patel
 🔭 I’m currently working on<br><br>AI-powered applications (RAG systems, chatbots, automation)<br>Full-stack products using React, Next.js, FastAPI, PostgreSQL<br>Multi-agent systems with LangGraph, LangChain, vector databases & knowledge graphs<br><br>👯 I’m looking to collaborate on<br><br>AI/ML projects (chatbots, image search, recommendation systems)<br>Open-source developer tools & SaaS products<br>Scalable backend systems and automation workflows (n8n, APIs)<br><br>🤝 I’m looking for help with<br><br>Advanced multi-agent orchestration<br>Production-grade AI deployments & optimization<br>Distributed systems & performance tuning<br><br>🌱 I’m currently learning<br><br>Advanced AI agents & multi-modal RAG<br>Model optimization & inference pipelines<br>System design for AI-first products<br><br>💬 Ask me about<br><br>Full-stack development<br>AI chatbots & RAG architecture<br>LangChain / LangGraph<br>PostgreSQL, APIs, automation, and system design<br><br>⚡ Fun fact<br>I enjoy turning complex AI ideas into simple, usable products 🚀
 
 
