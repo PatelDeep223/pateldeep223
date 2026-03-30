@@ -99,7 +99,7 @@
 
 <div align="center">
 
-![Deep's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pateldeep223&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pateldeep223&theme=tokyonight)
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=pateldeep223&color=blue&style=flat-square&label=Profile+Views)
 
