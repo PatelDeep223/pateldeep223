@@ -1,6 +1,10 @@
-# 💫 Hi, I’m Deep Patel
-🔭 AI apps, chatbots, RAG systems & full-stack projects<br>👯 AI/ML, SaaS & open-source projects<br>🤝 Scaling AI systems & multi-agent workflows<br>🌱 Advanced AI agents, multi-modal RAG & system design<br>💬 Full-stack dev, AI chatbots, LangChain, PostgreSQL<br>⚡ I love turning complex AI ideas into simple products 🚀
-
+## 💫 Hi, I'm Deep Patel
+- 🤖 Python Backend Engineer & GenAI Developer — 2.5 years production experience
+- 🏗️ Building: RAG pipelines, Multi-agent LangGraph systems, FastAPI microservices
+- 🔥 Latest: FinBot — Financial Intelligence RAG with semantic caching & anti-hallucination
+- 🌱 Currently exploring: Kubernetes, advanced LLM evaluation, semantic routing
+- 💬 Ask me about: FastAPI, LangChain, RAG, PostgreSQL, Redis, Docker
+- ⚡ I turn complex AI ideas into production systems
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/deeppatel2/) 
