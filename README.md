@@ -4,7 +4,7 @@
 
 ### Python Backend Engineer & GenAI Developer
 
-**2.5 years building production AI systems — RAG pipelines, multi-agent workflows, FastAPI microservices**
+**2.5+ years building production AI systems — RAG pipelines, multi-agent workflows, FastAPI microservices**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deeppatel2/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PatelDeep223)
@@ -99,10 +99,12 @@
 
 <div align="center">
 
-![Deep's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pateldeep223&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true)
+![Deep's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pateldeep223&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pateldeep223&layout=compact&theme=default&hide_border=true&include_all_commits=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pateldeep223&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pateldeep223&theme=tokyonight&hide_border=true)
 </div>
 
 ---
