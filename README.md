@@ -101,8 +101,7 @@
 
 ![Deep's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pateldeep223&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pateldeep223&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
+![Visitor Count](https://komarev.com/ghpvc/?username=pateldeep223&color=blue&style=flat-square&label=Profile+Views)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pateldeep223&theme=tokyonight&hide_border=true)
 </div>
