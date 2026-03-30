@@ -101,10 +101,10 @@
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pateldeep223&theme=tokyonight)
 
-![Visitor Count](https://komarev.com/ghpvc/?username=pateldeep223&color=blue&style=flat-square&label=Profile+Views)
-
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pateldeep223&theme=tokyonight&hide_border=true)
 </div>
+
+![Visitor Count](https://komarev.com/ghpvc/?username=pateldeep223&color=blue&style=flat-square&label=Profile+Views)
 
 ---
 
