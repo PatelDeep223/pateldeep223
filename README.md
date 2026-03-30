@@ -1,22 +1,116 @@
-## 💫 Hi, I'm Deep Patel
-- 🤖 Python Backend Engineer & GenAI Developer — 2.5 years production experience
-- 🏗️ Building: RAG pipelines, Multi-agent LangGraph systems, FastAPI microservices
-- 🔥 Latest: FinBot — Financial Intelligence RAG with semantic caching & anti-hallucination
-- 🌱 Currently exploring: Kubernetes, advanced LLM evaluation, semantic routing
-- 💬 Ask me about: FastAPI, LangChain, RAG, PostgreSQL, Redis, Docker
-- ⚡ I turn complex AI ideas into production systems
+<div align="center">
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/deeppatel2/) 
+# 👋 Hi, I'm Deep Patel
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=pateldeep223&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=pateldeep223&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=pateldeep223&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+### Python Backend Engineer & GenAI Developer
+
+**2.5 years building production AI systems — RAG pipelines, multi-agent workflows, FastAPI microservices**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deeppatel2/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PatelDeep223)
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=pateldeep223&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🚀 About Me
+
+- 🏦 Built **FinBot** — Financial Intelligence RAG System with semantic caching, anti-hallucination & confidence scoring
+- 🤖 Built **multi-agent RAG systems** using LangChain + LangGraph with Supervisor routing
+- ⚡ Reduced API response times by **40%** via Redis caching & query optimization
+- 🔧 Architected **5+ production REST APIs** serving real business workflows at Blockspark
+- 🌱 Currently exploring: **Kubernetes**, advanced LLM evaluation, semantic routing
+- 💬 Ask me about: **FastAPI · LangChain · RAG · PostgreSQL · Redis · Docker**
+- ⚡ I turn complex AI ideas into production systems
+
+---
+
+## 🔥 Featured Project
+
+### 🏦 [FinBot — Financial Intelligence RAG System](https://github.com/PatelDeep223/finbot-financial-rag)
+
+> Enterprise-grade Financial Document Q&A with advanced RAG architecture
+
+| Feature | Implementation |
+|---|---|
+| 🧠 Anti-Hallucination | temperature=0 + strict prompts + confidence scoring |
+| ⚡ Semantic Caching | Redis embedding similarity — ~50ms vs 2-4s response |
+| 🔄 Query Rewriting | LLM rewrites ambiguous queries before retrieval |
+| 📊 Confidence Scoring | Uncertainty phrase detection + source citation |
+| 🚀 Deployment | Docker Compose + Nginx + async FastAPI |
+
+**Tech:** `FastAPI` `LangChain` `OpenAI` `FAISS` `Redis` `PostgreSQL` `Docker`
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend & AI**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+**Databases & Cache**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Cloud & DevOps**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**AI/ML Tools**
+
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+---
+
+## 📌 Projects
+
+| Project | Description | Tech |
+|---|---|---|
+| 🏦 [FinBot](https://github.com/PatelDeep223/finbot-financial-rag) | Financial Intelligence RAG — semantic caching, anti-hallucination | FastAPI, LangChain, FAISS, Redis |
+| 🤖 Multi-Agent RAG Chatbot | Support + Sales + Billing agents with Supervisor routing | LangGraph, FastAPI, ChromaDB |
+| 💬 CharConnect | AI chat platform — Dialogflow → RAG → OpenAI fallback + npm widget | FastAPI, WebSockets, React |
+| 🔍 CLIP Image Search | Image similarity engine using CLIP embeddings + FAISS | Python, AIOHTTP, HuggingFace |
+| 📋 SNG India CRM | AI-driven lead management with SPANCO pipeline + 4-tier RBAC | FastAPI, PostgreSQL, React |
+| 🏥 [Appointment Agent](https://github.com/PatelDeep223/appointment-scheduling-agent) | Medical scheduling agent with RAG FAQ + Calendly integration | Python, RAG, FastAPI |
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Deep's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pateldeep223&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pateldeep223&layout=compact&theme=default&hide_border=true&include_all_commits=true&count_private=true)
+
+</div>
+
+---
+
+<div align="center">
+
+**💡 Open to Senior Python Backend / GenAI Engineer roles**
+
+*Building the future of AI-powered systems, one commit at a time* 🚀
+
+</div>
