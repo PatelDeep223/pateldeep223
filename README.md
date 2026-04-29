@@ -11,7 +11,7 @@ Python backend engineer. I build production RAG systems with FastAPI, LangChain,
 
 2.5 years shipping LLM-powered features at Blockspark — multi-agent chatbots, semantic search, document Q&A. Currently open to **remote Python backend / GenAI engineering roles**.
 
-📬 **[your.email@example.com](mailto:your.email@example.com)** · [LinkedIn](https://www.linkedin.com/in/deeppatel2/) · [GitHub](https://github.com/PatelDeep223)
+📬 **[deep.patel.dev05@gmail.com](mailto:deep.patel.dev05@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/deeppatel2/) · [GitHub](https://github.com/PatelDeep223)
 
 ---
 
