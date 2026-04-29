@@ -1,117 +1,72 @@
-<div align="center">
+# Deep Patel
 
-# 👋 Hi, I'm Deep Patel
+Python backend engineer. I build production RAG systems with FastAPI, LangChain, and PostgreSQL.
 
-### Python Backend Engineer & GenAI Developer
+2.5 years shipping LLM-powered features at Blockspark — multi-agent chatbots, semantic search, document Q&A. Currently open to **remote Python backend / GenAI engineering roles**.
 
-**2.5+ years building production AI systems — RAG pipelines, multi-agent workflows, FastAPI microservices**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deeppatel2/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PatelDeep223)
-
-</div>
+📬 **[your.email@example.com](mailto:your.email@example.com)** · [LinkedIn](https://www.linkedin.com/in/deeppatel2/) · [GitHub](https://github.com/PatelDeep223)
 
 ---
 
-## 🚀 About Me
+## What I'm good at
 
-- 🏦 Built **FinBot** — Financial Intelligence RAG System with semantic caching, anti-hallucination & confidence scoring
-- 🤖 Built **multi-agent RAG systems** using LangChain + LangGraph with Supervisor routing
-- ⚡ Reduced API response times by **40%** via Redis caching & query optimization
-- 🔧 Architected **5+ production REST APIs** serving real business workflows at Blockspark
-- 🌱 Currently exploring: **Kubernetes**, advanced LLM evaluation, semantic routing
-- 💬 Ask me about: **FastAPI · LangChain · RAG · PostgreSQL · Redis · Docker**
-- ⚡ I turn complex AI ideas into production systems
+Designing FastAPI services that hold up under real traffic. RAG pipelines where the retrieval actually works — not just cosine similarity and hope. Wiring caching, query rewriting, and evaluation harnesses around LLMs so they ship as products instead of demos. The boring infrastructure underneath all of it: Postgres schema design, async Python, Docker, observability.
+
+**Stack:** Python · FastAPI · LangChain · LangGraph · PostgreSQL · Redis · FAISS · Docker · AWS
 
 ---
 
-## 🔥 Featured Project
+## Featured project
 
-### 🏦 [FinBot — Financial Intelligence RAG System](https://github.com/PatelDeep223/finbot-financial-rag)
+### FinBot — Financial Document Q&A
 
-> Enterprise-grade Financial Document Q&A with advanced RAG architecture
+**[Live demo](https://YOUR-DEMO-URL.com)** · **[Source](https://github.com/PatelDeep223/finbot-financial-rag)**
 
-| Feature | Implementation |
-|---|---|
-| 🧠 Anti-Hallucination | temperature=0 + strict prompts + confidence scoring |
-| ⚡ Semantic Caching | Redis embedding similarity — ~50ms vs 2-4s response |
-| 🔄 Query Rewriting | LLM rewrites ambiguous queries before retrieval |
-| 📊 Confidence Scoring | Uncertainty phrase detection + source citation |
-| 🚀 Deployment | Docker Compose + Nginx + async FastAPI |
+A RAG system for financial documents, where a wrong answer is worse than no answer. I built the architecture around that constraint:
 
-**Tech:** `FastAPI` `LangChain` `OpenAI` `FAISS` `Redis` `PostgreSQL` `Docker`
+- **Semantic cache** using embedding similarity. Cache hits return in ~50ms vs 2–4s for full retrieval. *(Add real cache hit rate + similarity threshold here.)*
+- **Query rewriting** before retrieval. Resolves ambiguous follow-ups ("what about last quarter?") against conversation context, which fixed most of the retrieval failures I was seeing in testing.
+- **Citation enforcement + confidence scoring.** Every answer surfaces the source chunks it used. Low-confidence responses are flagged instead of hidden behind fluent prose.
+- Async FastAPI, Redis, FAISS, Docker Compose with Nginx in front.
 
----
-
-## 🛠️ Tech Stack
-
-**Backend & AI**
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-
-**Databases & Cache**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Cloud & DevOps**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**AI/ML Tools**
-
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+**Stack:** FastAPI · LangChain · OpenAI · FAISS · Redis · PostgreSQL
 
 ---
 
-## 📌 Projects
+## Other projects
 
-| Project | Description | Tech |
-|---|---|---|
-| 🏦 [FinBot](https://github.com/PatelDeep223/finbot-financial-rag) | Financial Intelligence RAG — semantic caching, anti-hallucination | FastAPI, LangChain, FAISS, Redis |
-| 🤖 Multi-Agent RAG Chatbot | Support + Sales + Billing agents with Supervisor routing | LangGraph, FastAPI, ChromaDB |
-| 💬 CharConnect | AI chat platform — Dialogflow → RAG → OpenAI fallback + npm widget | FastAPI, WebSockets, React |
-| 🔍 CLIP Image Search | Image similarity engine using CLIP embeddings + FAISS | Python, AIOHTTP, HuggingFace |
-| 📋 SNG India CRM | AI-driven lead management with SPANCO pipeline + 4-tier RBAC | FastAPI, PostgreSQL, React |
-| 🏥 [Appointment Agent](https://github.com/PatelDeep223/appointment-scheduling-agent) | Medical scheduling agent with RAG FAQ + Calendly integration | Python, RAG, FastAPI |
+**[Appointment Scheduling Agent](https://github.com/PatelDeep223/appointment-scheduling-agent)**
+Medical scheduling agent with RAG-backed FAQ and Calendly integration. Handles booking, rescheduling, and clinic-specific Q&A in a single conversation flow.
 
----
+**Multi-Agent RAG Chatbot** *(private — Blockspark)*
+Support, sales, and billing agents coordinated via LangGraph supervisor. Beyond the standard tutorial pattern: per-agent retrieval indexes, fallback handoff, and shared conversation memory across agents.
 
-## 📊 GitHub Stats
+**CharConnect** *(private — Blockspark)*
+Embeddable chat widget shipped as an npm package. Three-tier response strategy — Dialogflow for known intents, RAG for documented questions, OpenAI fallback for the rest.
 
-<div align="center">
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pateldeep223&theme=tokyonight)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pateldeep223&theme=tokyonight&hide_border=true)
-</div>
-
-![Visitor Count](https://komarev.com/ghpvc/?username=pateldeep223&color=blue&style=flat-square&label=Profile+Views)
+**SNG India CRM** *(private — Blockspark)*
+Lead management system with SPANCO pipeline and 4-tier RBAC. FastAPI + PostgreSQL + React.
 
 ---
 
-<div align="center">
+## Selected work at Blockspark
 
-**💡 Open to Senior Python Backend / GenAI Engineer roles**
+Backend engineer, 2.5 years. Some specifics:
 
-*Building the future of AI-powered systems, one commit at a time* 🚀
+- Cut p95 latency on our highest-traffic chatbot endpoint from **~1.2s to ~720ms** by introducing Redis caching for repeated retrieval queries. *(Replace with your real numbers.)*
+- Owned the RAG pipeline for [product name] from prototype to production — chunking strategy, embedding model selection, retrieval evaluation, prompt iteration.
+- Built and maintained the FastAPI services behind [N internal/external products].
 
-</div>
+---
+
+## Now
+
+Building [whatever you're actively shipping right now — one line]. Writing about RAG evaluation and production LLM patterns at [your blog if you have one, or remove this section].
+
+---
+
+## Get in touch
+
+The fastest way to reach me is email: **your.email@example.com**
+
+I'm currently open to remote Python backend and GenAI engineering roles. Happy to talk about RAG architecture, evaluation harnesses, semantic caching, or anything else in this stack.
