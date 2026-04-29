@@ -1,5 +1,12 @@
 # Deep Patel
 
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
 Python backend engineer. I build production RAG systems with FastAPI, LangChain, and PostgreSQL.
 
 2.5 years shipping LLM-powered features at Blockspark — multi-agent chatbots, semantic search, document Q&A. Currently open to **remote Python backend / GenAI engineering roles**.
@@ -20,16 +27,49 @@ Designing FastAPI services that hold up under real traffic. RAG pipelines where 
 
 ### FinBot — Financial Document Q&A
 
-**[Live demo](https://YOUR-DEMO-URL.com)** · **[Source](https://github.com/PatelDeep223/finbot-financial-rag)**
+[![FinBot Screenshot](./assets/finbot-hero.png)](https://YOUR-DEMO-URL.com)
+
+**[Live demo →](https://YOUR-DEMO-URL.com)** · **[Source →](https://github.com/PatelDeep223/finbot-financial-rag)**
 
 A RAG system for financial documents, where a wrong answer is worse than no answer. I built the architecture around that constraint:
 
-- **Semantic cache** using embedding similarity. Cache hits return in ~50ms vs 2–4s for full retrieval. *(Add real cache hit rate + similarity threshold here.)*
+- **Semantic cache** using embedding similarity. Cache hits return in ~50ms vs 2–4s for full retrieval.
 - **Query rewriting** before retrieval. Resolves ambiguous follow-ups ("what about last quarter?") against conversation context, which fixed most of the retrieval failures I was seeing in testing.
 - **Citation enforcement + confidence scoring.** Every answer surfaces the source chunks it used. Low-confidence responses are flagged instead of hidden behind fluent prose.
 - Async FastAPI, Redis, FAISS, Docker Compose with Nginx in front.
 
 **Stack:** FastAPI · LangChain · OpenAI · FAISS · Redis · PostgreSQL
+
+#### Architecture
+
+```mermaid
+flowchart LR
+    User[User Query] --> Cache{Semantic<br/>Cache?}
+    Cache -->|Hit ~50ms| Response[Response]
+    Cache -->|Miss| Rewrite[Query Rewriter]
+    Rewrite --> Embed[Embedding]
+    Embed --> FAISS[(FAISS Index)]
+    FAISS --> Retrieved[Top-K Chunks]
+    Retrieved --> LLM[OpenAI + Grounded Prompt]
+    LLM --> Conf[Confidence Scorer]
+    Conf --> Response
+    Response -.->|Store| Cache
+
+    style Cache fill:#1a73e8,color:#fff
+    style LLM fill:#412991,color:#fff
+    style Response fill:#0d9488,color:#fff
+```
+
+#### Performance
+
+| Metric                 | Before  | After   | Δ        |
+|------------------------|---------|---------|----------|
+| p95 latency (cached)   | 2,400ms | 52ms    | **−98%** |
+| p95 latency (uncached) | 4,100ms | 1,800ms | −56%     |
+| Cache hit rate         | —       | 67%     | —        |
+| Cost per query         | $0.012  | $0.004  | **−67%** |
+
+> **Replace these numbers with your real measurements before publishing.** Made-up numbers in an interview are worse than no numbers.
 
 ---
 
