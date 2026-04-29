@@ -27,9 +27,7 @@ Designing FastAPI services that hold up under real traffic. RAG pipelines where 
 
 ### FinBot — Financial Document Q&A
 
-[![FinBot Screenshot](./assets/finbot-hero.png)](https://YOUR-DEMO-URL.com)
-
-**[Live demo →](https://YOUR-DEMO-URL.com)** · **[Source →](https://github.com/PatelDeep223/finbot-financial-rag)**
+**[Source →](https://github.com/PatelDeep223/finbot-financial-rag)**
 
 A RAG system for financial documents, where a wrong answer is worse than no answer. I built the architecture around that constraint:
 
@@ -107,6 +105,6 @@ Building [whatever you're actively shipping right now — one line]. Writing abo
 
 ## Get in touch
 
-The fastest way to reach me is email: **your.email@example.com**
+The fastest way to reach me is email: **deep.patel.dev05@gmail.com**
 
 I'm currently open to remote Python backend and GenAI engineering roles. Happy to talk about RAG architecture, evaluation harnesses, semantic caching, or anything else in this stack.
